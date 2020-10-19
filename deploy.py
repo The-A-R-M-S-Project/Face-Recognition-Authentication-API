@@ -13,9 +13,6 @@ import base64
 app = Flask(__name__)
 CORS(app)
 
-df = pd.read_csv('./data/train-face-encodings.csv')
-df.groupby("name").mean()
-
 @app.route('/')
 def index():
     return '<h1>Home</h1>'
