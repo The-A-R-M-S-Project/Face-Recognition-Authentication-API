@@ -1,7 +1,7 @@
 from flask import Flask, jsonify,request
 from utils import generate_embeddings
 from utils import detect_face
-import face_recognition, pickle
+import pickle
 import numpy as np
 import pandas as pd
 from flask_cors import CORS
