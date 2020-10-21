@@ -5,7 +5,6 @@ from utils import generate_embeddings
 from utils import detect_face
 import pickle
 import numpy as np
-import pandas as pd
 from flask_cors import CORS
 import tensorflow as tf
 tf.get_logger().setLevel('ERROR')
