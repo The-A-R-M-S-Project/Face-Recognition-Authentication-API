@@ -12,7 +12,7 @@ import base64
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/')
+@app.route('/', methods=["GET"])
 def index():
     return '<h1>Home</h1>'
 
